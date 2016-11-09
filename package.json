@@ -1,0 +1,20 @@
+{
+  "name": "imard_lms",
+  "version": "1.0.0",
+  "description": "IMARD LMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/jtsprivate/lms_backend.git"
+  },
+  "keywords": [
+    "imard",
+    "lms"
+  ],
+  "author": "GlaDos",
+  "license": "Apache-2.0",
+  "homepage": "https://bitbucket.org/jtsprivate/lms_backend#readme"
+}
