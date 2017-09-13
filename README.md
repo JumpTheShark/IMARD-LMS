@@ -1,3 +1,3 @@
 # imard lms
 
-IMARD Learning Management SYstem. Manages modules' and aims' dependencies.
+IMARD Learning Management System. Manages modules' and subjects' dependencies.

@@ -5,7 +5,7 @@
     },
     "source": {
         "include": [
-            "server",
+            "code",
             "self_modules"
         ],
         "exclude": [

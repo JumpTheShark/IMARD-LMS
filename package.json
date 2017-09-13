@@ -4,7 +4,10 @@
   "description": "IMARD LMS",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "node code/index.js",
+    "pretest": "node self_modules/recourse/toggleTest.js",
+    "posttest": "node self_modules/recourse/toggleProduction.js",
+    "test": "istanbul cover --report html _mocha -- --recursive -R spec test/"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,23 @@
   ],
   "author": "GlaDos",
   "license": "Apache-2.0",
-  "homepage": "https://bitbucket.org/jtsprivate/lms_backend#readme"
+  "bugs": {
+    "url": "https://github.com/JumpTheShark/imard-module-repo/issues",
+    "email": "glados28@yandex.ru"
+  },
+  "homepage": "https://bitbucket.org/jtsprivate/lms_backend#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "express": "^4.14.0",
+    "forever": "^0.15.2",
+    "qs": "^6.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "istanbul": "^0.4.5",
+    "jsdoc": "^3.4.2",
+    "mocha": "^3.1.0",
+    "sinon": "^1.17.6",
+    "supertest": "^2.0.0"
+  }
 }
